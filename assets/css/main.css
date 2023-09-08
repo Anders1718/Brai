@@ -3201,7 +3201,7 @@ body.landing #header {
 	width: 4ch;
 	white-space: nowrap;
 	border-right: 4px solid;
-	animation: typing .8s steps(4),
+	animation: typing .85s steps(4),
 	blink .5s infinite step-end alternate;
 	overflow: hidden;
 }

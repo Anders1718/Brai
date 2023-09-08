@@ -2193,7 +2193,6 @@ input[type="radio"]+label:before {
 }
 
 .icon.major {
-	background: #272833;
 	border-radius: 100%;
 	cursor: default;
 	display: inline-block;
@@ -3199,6 +3198,18 @@ body.landing #header {
 #banner .content header h2 {
 	font-size: 15em;
 	margin: auto;
+	width: 4ch;
+	animation: typing 1.75s steps(12),
+	blink .5s infinite step-end alternate;
+	overflow: hidden;
+}
+
+@keyframes typing{
+	from {width: 0}
+}
+
+@keyframes blink {
+	50% { border-color: transparent;}
 }
 
 #banner .content img {

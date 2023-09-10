@@ -639,6 +639,12 @@ body.landing {
 }
 .row.gtr-uniform img{
 	width: 75%;
+	justify-content: center;
+}
+
+.row.gtr-uniform.last-img{
+	align-items: center;
+	text-align: center;
 }
 
 .row.gtr-uniform>* {
@@ -3229,7 +3235,6 @@ body.landing #header {
 }
 
 #banner .content img {
-	border-radius: 100%;
 	width: 30em;
 }
 

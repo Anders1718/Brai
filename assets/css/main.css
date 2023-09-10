@@ -109,8 +109,7 @@ figcaption,
 figure,
 header,
 hgroup,
-menu,
-nav{
+menu{
 	display: flex;
 }
 

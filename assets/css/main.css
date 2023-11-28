@@ -243,7 +243,7 @@ h6 {
 	color: black;
 	font-weight: 300;
 	line-height: 1em;
-	margin: 0 0 1em 0;
+	margin: 0 0 2em 0;
 }
 
 .wrapper h2, h3{
@@ -634,7 +634,7 @@ body.landing {
 .row.gtr-uniform {
 	margin-top: -2.5em;
 	align-items: center;
-	margin-bottom: 15em;
+	margin-bottom: 4em;
 }
 .row.gtr-uniform img{
 	width: 75%;

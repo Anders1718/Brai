@@ -1,10 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
 
 /* Variable for background color */
 :root {
-	--background-color: #a4c2f4ff;
+	--background-color: white;
 }
 
 /*
@@ -198,10 +199,14 @@ input,
 select,
 textarea {
 	color: black;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 15pt;
 	font-weight: 100;
 	line-height: 1.75em;
+}
+
+h1, h2{
+	font-family: 'Roboto Mono', monospace;
 }
 
 a {
@@ -253,6 +258,7 @@ h6 {
 
 .wrapper h3{
 	font-size: 2em;
+	font-weight: 700;
 }
 
 .wrapper h2{
@@ -262,9 +268,11 @@ h6 {
 .wrapper.style2 {
 	background: var(--background-color);
 	padding-bottom: 0;
+	color: black;
 }
 
 .wrapper.style2 h2 {
+	color: black;
 	text-align: center;
 }
 
@@ -3268,7 +3276,7 @@ body.landing #header {
 }
 
 #footer .copyright {
-	color: rgba(255, 255, 255, 0.5);
+	color: black;
 	font-size: 0.8em;
 	line-height: 1em;
 	margin: 2em 0 0 0;
@@ -3292,6 +3300,10 @@ body.landing #header {
 
 #footer .copyright li a {
 	color: inherit;
+}
+
+.footer-negro {
+	color: black;
 }
 
 /* XLarge */
